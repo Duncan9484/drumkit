@@ -97,17 +97,6 @@ section .air.air4{
 }
 
 
-
-footer{
-    
-    
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 100px;
-
-
-    
-}
 .drum{
     border: 10px solid rgb(108, 108, 230);
     border-radius: 10px;
@@ -163,11 +152,7 @@ footer{
  
   
 }
-footer{
-  font-size: 20px;
-  margin-top: 10%;
 
-}
 .set{
   position: relative;
 }
@@ -195,11 +180,7 @@ h1{
   
    
  }
- footer{
-   font-size: 25px;
-   margin-top: 10%;
  
- }
  .set{
    position: relative;
  }
@@ -227,9 +208,7 @@ h1{
   
    
  }
- footer{
-   font-size: 25px;
-   margin-top: 10%;
+ 
  
  }
  .set{
@@ -237,38 +216,5 @@ h1{
  }
  h1{
    margin: 10%;
- }
- }
- @media (max-width: 480px) and (min-width: 319px){
-  body{
-   
-  
- 
- 
-  }
-  .drum{
-   border: 10px solid rgb(108, 108, 230);
-   border-radius: 10px;
-   height: 100px;
-   width: 100px;
-   margin: 5px;
-   padding: auto;
-   
-   font-size: 50px;
-   color: rgb(227, 223, 15);
-  
-   
- }
- footer{
-   font-size: 70px;
-   margin-top: 10%;
- 
- }
- .set{
-   position: relative;
- }
- h1{
-   margin: 10%;
- }
  }
  
