@@ -6,6 +6,7 @@ for(i=0; i<buttonCounter; i++){
        var dunClicked = this.innerHTML
 
        makeSound(dunClicked);
+       animateButton(dunClicked);
 
 
        
@@ -15,7 +16,8 @@ for(i=0; i<buttonCounter; i++){
 
 }
 document.addEventListener("keydown", function(dun){
-    makeSound(dun.key)
+    makeSound(dun.key);
+    animateButton(dun.key);
 })
 
 function makeSound(key){
@@ -53,3 +55,13 @@ function makeSound(key){
 
        }
 }
+function animateButton(wewe){
+    var finywa = document.querySelector("."+wewe);
+    finywa.classList.add("pressed");
+    setTimeout(function(){
+        finywa.classList.remove("pressed");
+    }, 300);
+
+}
+
+

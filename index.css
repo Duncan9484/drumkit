@@ -205,6 +205,8 @@ h1{
    
    font-size: 50px;
    color: rgb(227, 223, 15);
+   
+   margin-bottom: 5%;
   
    
  }
@@ -217,4 +219,7 @@ h1{
  h1{
    margin: 10%;
  }
- 
+ .pressed{
+  box-shadow: 0 3px 4px 0 rgb(166, 156, 144);
+  opacity: 0.4;
+ }
